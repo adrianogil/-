@@ -1,7 +1,8 @@
+import os
 
 class Game:
     def __init__(self):
-        self.wordlist_file = '../data/wordlist.txt'
+        self.wordlist_file = os.environ["GGEUTMARITGI_DIR"] + '/../data/wordlist.txt'
         self.load_wordlist()
 
     def load_wordlist(self):

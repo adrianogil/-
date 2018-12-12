@@ -1,0 +1,1 @@
+alias 끝말잇기="python3 $GGEUTMARITGI_DIR/game.py"
